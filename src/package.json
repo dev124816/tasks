@@ -1,0 +1,11 @@
+{
+    "name": "tasks",
+    "version": "1.0.0",
+    "main": "main.js",
+    "dependencies": {
+        "electron": "^22.0.0"
+    },
+    "scripts": {
+        "start": "electron ."
+    }
+}
