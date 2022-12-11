@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #FBFBFB;
+    --success-color: #00d600;
+    --infos-color: #002db3;
+    --warning-color: #FFCC00;
+    --danger-color: #FF2020;
+
+    --shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    --primary-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    font-family: var(--primary-font);
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+}
+
+button {
+    border: none;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+header {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.task {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    justify-content: stretch;
+    padding: 20px 30px;
+}
+
+.add-task-input {
+    background-color: var(--primary-color);
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: 1px solid lightgrey;
+    width: 100%;
+}
+
+.add-task-button, .clear-checked-tasks-button {
+    margin-left: 20px;
+    background-color: var(--primary-color);
+    box-shadow: var(--shadow);
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
